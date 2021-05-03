@@ -1,0 +1,19 @@
+body,div,di,dt,dd,ul,li,h1,h2,h3,h4,h5,input,form,a,p,textarea{
+    margin:0;
+    padding:0;
+}
+/* *{  margin:0;
+    padding:0; }  
+    通配符也可以。
+    */
+    ul,ol.li{
+        list-style: none;
+    }
+a{
+    text-decoration: none;
+    display: block;
+}
+img{
+    border: none;
+    display: block;
+}
