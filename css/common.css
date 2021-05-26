@@ -1,0 +1,66 @@
+.public-header {
+height: 110px;
+}
+
+.public-header .header-logo{
+float:left;
+margin-top: 40px;
+width: 181px;
+height: 54px;
+background:url("../images/header.png");
+}
+
+.public-header .header-nav{
+    float: right;
+    font-size: 14px;
+
+}
+
+.public-header .header-nav .item{
+    float: left;
+    margin-top: 49px;
+    margin-left:60px;
+}
+
+.public-header .header-nav .item a{
+    color: #3b3b3b;
+}
+
+/* .publiic-header .header-nav a:hover{
+    text-decoration: underline;
+}  没明白，也没弄好 */
+
+.public-container{
+    position:relative;
+    margin:0 auto;
+    width: 1100px;
+
+}
+
+.public-footer{
+    height: 318px;
+   background:#3b3b3b; 
+}
+
+.public-footer .footer-logo{
+    margin-top: -16px;
+    margin-bottom:20px;
+    width: 182px;
+    height: 55px;
+    background: url("../images/footer.png");
+}
+
+.public-footer .footer-col{
+    margin-top: 100px;
+width: 230px;
+margin-right:60px;
+font-size:16px ;
+color: #fff;
+line-height: 1.8;
+float: left;
+}
+
+.public-footer .footer-col:last-child{
+
+    margin-right: 0;
+}
