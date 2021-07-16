@@ -3,8 +3,29 @@
     background: #fff;
 }
 
-.index-banner-bg{
+.index-banner-bg {
+    width: 1500px;
     height: 570px;
     overflow: hidden;
 
+}
+
+.index-banner-bg img {
+    margin: 0 auto;
+}
+
+.index-banner-text {
+    top: 210px;
+    left: 50%;
+    position: absolute;
+    margin-left: -362px;
+}
+.index-banner-text .text-logo {
+width: 776px;
+height: 117px;
+background: url("../images/banner-text-logo.png");
+}
+
+.index-banner-text .text-info{
+    margin-top: 18px;
 }
