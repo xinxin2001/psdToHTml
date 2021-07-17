@@ -7,7 +7,7 @@
     width: 1500px;
     height: 570px;
     overflow: hidden;
-
+/*banner不居中*/
 }
 
 .index-banner-bg img {
@@ -25,7 +25,94 @@ width: 776px;
 height: 117px;
 background: url("../images/banner-text-logo.png");
 }
+/*text-logo未显示*/
+
 
 .index-banner-text .text-info{
     margin-top: 18px;
+    text-align: center;
+    color: #fff;
 }
+
+.index-banner-text .text-info .line {
+    display: inline-block;
+    width: 40px;
+border-top:1px solid #fff;
+vertical-align: middle;
+}
+
+.index-banner-text .text-info span{
+    margin: 0 26px;
+}
+
+/*menu部分*/
+.index-menu{
+    position: relative;
+        border-top: 4px solid #f34949;
+}
+    
+.index-menu .menu-tips{
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -78px;
+    width: 155px;
+    height: 75px;
+    text-align: center;
+    line-height: 65px; 
+        font-family: Aleo-Bold;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        color: #ffffff;
+        background-color: #f34949;
+}
+
+.index-menu .menu-tips :after{
+    position: relative;
+    content: '';
+    width: 0;
+    height: 0;
+left: 0;
+bottom: 0;
+border-bottom: 10px solid #fff;
+border-left:78px solid transparent ;
+border-right:78px solid transparent ;
+}/*小尖尖没有*/
+
+.index-menu .menu-list{
+    overflow: hidden;
+    margin-top: 157px;
+	color: #555555;
+}
+
+.index-menu .menu-list ul{
+    width: 1160px;
+}
+
+.index-menu .menu-item{
+    float: left;
+    width: 520px;
+    margin-right:60px ;
+    margin-bottom: 56px;
+
+}
+
+.index-menu .menu-item .title{
+    float: left;
+width: 230px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+index-menu .menu-item .line{
+    float: left;
+width: 192px;
+border-top: 1px solid #e3e1e1;
+    }
+
+.index-menu .menu-item .price{
+float: right;
+}
+
